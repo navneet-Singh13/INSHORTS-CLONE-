@@ -1,0 +1,88 @@
+.logo{ 
+    
+    position: static;
+    align-items: center;
+    margin-left: 800px;
+    margin-right: auto;
+    height: 90px;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin-bottom: auto;
+    background-color:white;
+    margin-top: 0px;
+    z-index: 20;
+    transition: all 0.7s;
+}
+nav:hover { 
+
+    box-shadow: 0 10px 10px rgb(192, 183, 183);
+}
+.content1 ,.content3, .content2,.content4,.content5,.content6,.no{
+    position:relative ;
+    background-color:white;
+    height: 500px;
+    width: 60% ;
+    display:flexbox;
+    margin-left:19%;
+    margin-right: auto;
+    margin-bottom: 200px;
+    box-shadow: 0 2px 15px black;
+    transition: all 1000ms;
+    border-radius: 65px;
+}
+
+.big >*:hover{ 
+    background-color:black ;
+    box-shadow: 0 10px 10px rgb(242, 242, 242);
+    cursor:pointer;
+    color:white ; 
+}
+h1{ 
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+}
+p{ 
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+}
+
+.no{ 
+    background-color:white;
+    margin-bottom: -220px;
+    box-shadow: 0 0 0 ;
+}
+footer{ 
+    background-color: #323232;
+    height: 300px;
+}
+.cont-images { 
+    
+    position: relative;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    margin-left: 20px ;
+    height: 450px ;
+    width : 450px ;
+    border-radius: 65px ;
+}
+.paras { 
+    
+    float: right;
+    
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 450px ;
+    width: 640px;
+}
+
+.main { 
+    color :rgb(242, 242, 242)
+}
+.footimg { 
+    position: relative;
+    margin-left: 150px;
+    margin-top:50px ; 
+}
